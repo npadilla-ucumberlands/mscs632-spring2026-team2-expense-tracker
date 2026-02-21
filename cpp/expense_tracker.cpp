@@ -4,12 +4,12 @@
 int main() {
     while (true) {
         std::cout << "\n===== Expense Tracker (C++) =====\n";
-        std::cout << "1) Add expense (TODO Day 2)\n";
-        std::cout << "2) List expenses (TODO Day 2)\n";
-        std::cout << "3) Search expenses (TODO Day 2)\n";
-        std::cout << "4) Summary (TODO Day 2)\n";
-        std::cout << "5) Save (TODO Day 2)\n";
-        std::cout << "6) Load (TODO Day 2)\n";
+        std::cout << "1) Add expense\n";
+        std::cout << "2) List expenses\n";
+        std::cout << "3) Search expenses\n";
+        std::cout << "4) Summary\n";
+        std::cout << "5) Save\n";
+        std::cout << "6) Load\n";
         std::cout << "7) Quit\n";
         std::cout << "Choose an option (1-7): ";
 
