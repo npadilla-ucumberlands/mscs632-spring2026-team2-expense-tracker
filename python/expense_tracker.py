@@ -1,25 +1,10 @@
-def main():
-    while True:
-        print("\n===== Expense Tracker (Python) =====")
-        print("1) Add expense (TODO Day 2)")
-        print("2) List expenses (TODO Day 2)")
-        print("3) Search expenses (TODO Day 2)")
-        print("4) Summary (TODO Day 2)")
-        print("5) Save (TODO Day 2)")
-        print("6) Load (TODO Day 2)")
-        print("7) Quit")
+from pathlib import Path
+import sys
 
-        choice = input("Choose an option (1-7): ").strip()
+# Allow importing from python/src when running from repo root
+sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 
-        if choice == "7":
-            print("Goodbye!")
-            break
-        elif choice in {"1", "2", "3", "4", "5", "6"}:
-            print("Not implemented yet — scheduled for Day 2 core implementation.")
-        else:
-            print("Invalid choice. Try again.")
-
+from expense_tracker import menu_loop
 
 if __name__ == "__main__":
-    main()
-
+    menu_loop()
