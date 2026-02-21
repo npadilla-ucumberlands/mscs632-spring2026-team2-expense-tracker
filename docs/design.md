@@ -1,7 +1,7 @@
 # Deliverable 1 – Initial Planning and Design
 Course: MSCS-632-M20 – Advanced Programming Languages  
 Semester: Spring 2026  
-Team: Team #2  
+Team: Team #2  Sandeep Parupalli, Nikhil Kannekanti & Nasser Hasan Padilla
 Project: Cross-Language Expense Tracker (Python + C++)  
 Repository: mscs632-spring2026-team2-expense-tracker
 
@@ -104,9 +104,9 @@ Driver (main) → ExpenseTracker → In-memory Storage
 ---
 
 ## 7. Task Assignment (3 Members)
-- Member 1 (Python Lead): Python tracker module + driver program, datetime parsing, validation.
-- Member 2 (C++ Lead): C++ tracker class/structs + driver program, STL summary map, validation scaffolding.
-- Member 3 (Docs/Integrator): Repo structure, docs completion, parity checklist, test plan, merge coordination.
+- Member 1 Sandeep Parupalli (Python Lead): Python tracker module + driver program, datetime parsing, validation.
+- Member 2 Nikhil Kannekanti (C++ Lead): C++ tracker class/structs + driver program, STL summary map, validation scaffolding.
+- Member 3 Nasser Hasan Padilla (Docs/Integrator): Repo structure, docs completion, parity checklist, test plan, merge coordination.
 
 ---
 
